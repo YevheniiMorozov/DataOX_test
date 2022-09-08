@@ -9,7 +9,7 @@ Base = declarative_base()
 class Price(Base):
     __tablename__ = "price"
     id = Column(Integer, primary_key=True)
-    value = Column(String(50), nullable=False)
+    value = Column(String(100), nullable=False)
 
 
 class Apartments(Base):
@@ -23,4 +23,4 @@ class Apartments(Base):
     city = Column(String(50), nullable=False)
     time = Column(String(50), nullable=False)
     description = Column(String(1000), nullable=False)
-    bedrooms = Column(String(50), nullable=False)
+    bedrooms = Column(String(100), nullable=False)

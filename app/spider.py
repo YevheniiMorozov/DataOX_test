@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 def get_data():
-    page = 85
+    page = 1
     cards = []
     while True:
         url = f"https://www.kijiji.ca/b-apartments-condos/city-of-toronto/page-{page}/c37l1700273"

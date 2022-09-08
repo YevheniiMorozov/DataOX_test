@@ -27,4 +27,4 @@ def add_value_to_sheets(prices, apart):
 
         sheet.insert_row(values, index)
         # quota limit value is 60
-        time.sleep(2)
+        time.sleep(1)

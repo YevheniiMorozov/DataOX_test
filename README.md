@@ -5,5 +5,5 @@ https://docs.google.com/spreadsheets/d/19Kyj75mZG-0jfU92nvGK__YkcVglLaKyMeoPLK3n
 
 
 To use this script clone this repo. Install all requirements. Change file .env.example
-with your db parameters and rename it to .env
+with your db parameters and rename it to .env.
 Then move to directory "app" and in console pint "python main.py"
